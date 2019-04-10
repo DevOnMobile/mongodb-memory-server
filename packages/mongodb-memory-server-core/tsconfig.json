@@ -9,7 +9,13 @@
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
-    "skipLibCheck": false
+    "skipLibCheck": false,
+    "strict": true,
+    "lib": ["es2017"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "jest"]
   },
   "include": ["src/**/*"],
   "exclude": ["**/__tests__"]
